@@ -6,11 +6,13 @@ public class AiControl : MonoBehaviour
     [SerializeField] float attackDistance=2f;
     Charactercontroller2D charactercontroller2D;
     HurtCollider hurtCollider;
+    private GameObject manager;
     
     void Awake()
     {
         charactercontroller2D=GetComponent<Charactercontroller2D>();
         hurtCollider=GetComponent<HurtCollider>();
+        manager=GameObject.FindGameObjectWithTag("Manager");
     }
     private void Update()
     {
@@ -49,6 +51,8 @@ public class AiControl : MonoBehaviour
     }
     private void OnHitReicive()
     {
+        manager.GetComponent<Manager>().defeatedEnemies++;
+        Debug.Log(manager.GetComponent<Manager>().defeatedEnemies.ToString());
         Destroy(gameObject);
     }
     

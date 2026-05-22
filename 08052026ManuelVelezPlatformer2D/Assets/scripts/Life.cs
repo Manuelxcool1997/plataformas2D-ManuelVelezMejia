@@ -6,7 +6,7 @@ public class Life : MonoBehaviour
 {
     [SerializeField] float Startlife=1f;
      [SerializeField] float damagePerHit=0.25f;
-    float currentlife;
+   public float currentlife;
     HurtCollider hurtCollider;
 
     public UnityEvent <float,float> OnLifeChanged;

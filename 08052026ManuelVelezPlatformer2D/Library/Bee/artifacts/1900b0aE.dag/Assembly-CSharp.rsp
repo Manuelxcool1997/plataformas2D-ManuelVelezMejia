@@ -488,10 +488,13 @@
 "Assets/Kits/Kitshurttsystem/HitCollider.cs"
 "Assets/Kits/Kitshurttsystem/HurtCollider.cs"
 "Assets/scripts/AiControl.cs"
+"Assets/scripts/changePoints.cs"
 "Assets/scripts/Charactercontroller2D.cs"
+"Assets/scripts/DeadZone.cs"
 "Assets/scripts/EnemyGenerator.cs"
 "Assets/scripts/Life.cs"
 "Assets/scripts/LifeCanvas.cs"
+"Assets/scripts/Manager.cs"
 "Assets/scripts/PlayerControll.cs"
 -langversion:9.0
 /deterministic

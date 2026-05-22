@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5986829904042688086, guid: 0a4a6ea5b784567418ac62d6e4e2f5c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.189
+      objectReference: {fileID: 0}
     - target: {fileID: 6898410270735670834, guid: 0a4a6ea5b784567418ac62d6e4e2f5c7, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -34,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7519344724860346775, guid: 0a4a6ea5b784567418ac62d6e4e2f5c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.268
+      value: 0.174
       objectReference: {fileID: 0}
     - target: {fileID: 7849849696469386859, guid: 0a4a6ea5b784567418ac62d6e4e2f5c7, type: 3}
       propertyPath: m_Enabled
@@ -113,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControll
   move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jump: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  startPosition: {fileID: 0}
   punch: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!114 &7805299577542784860
 MonoBehaviour:

@@ -1,18 +1,21 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 public class PlayerControll : MonoBehaviour
 {
     Charactercontroller2D charactercontroller2D;
     [SerializeField] InputActionReference move;
      [SerializeField] InputActionReference jump;
      Life life;
+   [SerializeField] Transform startPosition;
       [SerializeField] InputActionReference punch;// Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         charactercontroller2D=GetComponent<Charactercontroller2D>();
          
          life=GetComponent<Life>();
+       
     }
     void Start()
     {
@@ -60,6 +63,7 @@ public class PlayerControll : MonoBehaviour
     void Resurrect()
     {
         gameObject.SetActive(true);
+        gameObject.transform.position=startPosition.position;
         life.Restart();
     }
 

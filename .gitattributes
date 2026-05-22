@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+C:/Users/manve/08052026ManuelVelezPlatformer2D filter=lfs diff=lfs merge=lfs -text
+C:/Users/manve/plataformas/08052026ManuelVelezPlatformer2D filter=lfs diff=lfs merge=lfs -text
 C:/Users/manve/plataformas filter=lfs diff=lfs merge=lfs -text
