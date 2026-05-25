@@ -495,7 +495,9 @@
 "Assets/scripts/Life.cs"
 "Assets/scripts/LifeCanvas.cs"
 "Assets/scripts/Manager.cs"
+"Assets/scripts/managerTitle.cs"
 "Assets/scripts/PlayerControll.cs"
+"Assets/scripts/powerUp.cs"
 -langversion:9.0
 /deterministic
 /optimize+

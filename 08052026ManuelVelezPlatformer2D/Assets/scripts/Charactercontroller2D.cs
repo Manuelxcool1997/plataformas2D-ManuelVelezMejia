@@ -5,8 +5,8 @@ public class Charactercontroller2D : MonoBehaviour
 {
     Rigidbody2D rb2D;
      [Header("Movement settings")]
-     [SerializeField] float movementSpeed =3f;
-      [SerializeField] float jumpSpeed =3f;
+     public float movementSpeed =3f;
+      public float jumpSpeed =3f;
       const float moveTreshold=0.1f;
      Animator animator;
      bool isInLadder=false;

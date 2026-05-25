@@ -56,9 +56,11 @@
     <Compile Include="Assets\scripts\PlayerControll.cs" />
     <Compile Include="Assets\scripts\EnemyGenerator.cs" />
     <Compile Include="Assets\scripts\LifeCanvas.cs" />
+    <Compile Include="Assets\scripts\managerTitle.cs" />
     <Compile Include="Assets\scripts\Charactercontroller2D.cs" />
     <Compile Include="Assets\scripts\AiControl.cs" />
     <Compile Include="Assets\scripts\changePoints.cs" />
+    <Compile Include="Assets\scripts\powerUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
