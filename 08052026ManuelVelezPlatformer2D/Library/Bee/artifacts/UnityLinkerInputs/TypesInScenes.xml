@@ -10,11 +10,11 @@
 		<type fullname="Life" preserve="nothing"/>
 		<type fullname="LifeCanvas" preserve="nothing"/>
 		<type fullname="Manager" preserve="nothing"/>
+		<type fullname="managerTitle" preserve="nothing"/>
 		<type fullname="PlayerControll" preserve="nothing"/>
 		<type fullname="powerUp" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
-		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManagerUpdater" preserve="nothing"/>
 	</assembly>
@@ -132,6 +132,7 @@
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.ComputeShader" preserve="nothing"/>
+		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Grid" preserve="nothing"/>

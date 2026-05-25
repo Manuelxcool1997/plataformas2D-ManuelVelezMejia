@@ -5,6 +5,9 @@
 			<method name="Exit"/>
 			<method name="ReSet"/>
 		</type>
+		<type fullname="managerTitle">
+			<method name="StartLevel"/>
+		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
